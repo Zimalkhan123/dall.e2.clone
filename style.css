@@ -1,0 +1,129 @@
+.background {
+    background-color: #000000;
+}
+.navbar{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    font-family: sans-serif;
+}
+.nav-left{
+    color:#FFFFFF ;
+    width: 20%;
+}
+.nav-left img{
+    text-align: left;
+    width: 150px;   
+}
+.nav-middle{
+    color: #FFFFFF;
+    text-align: left;
+    padding-top:  30px;
+    width: 50%;
+}
+.nav-middle p{
+    text-align: left;
+    display: inline;
+    padding: 20px;
+    flex-wrap: nowrap;
+}
+.nav-right{
+    color: #FFFFFF;
+    text-align: left;
+    padding-top:  30px;
+    width: 30%;
+    flex-wrap: nowrap;
+}
+.nav-right p{
+    text-align: left;
+    display: inline;        
+}
+.nav-right .gpt-box {
+    text-align: left;
+    display: inline-block;    
+}
+.nav-right .gpt-box p {
+    border: 1px solid #FFFFFF;
+}
+.body1{
+    width: 100%;
+    font-family: sans-serif;
+    color: #FFFFFF;
+}
+.body1 .heading{
+    
+    font-size: 80px;
+    padding-left: 20%;
+    text-align: left;    
+}
+.body1 .text{    
+    position: relative;
+    bottom: 120px;
+    text-align: left;
+    padding-left: 20%;
+    padding-right: 30%; 
+    padding-bottom: 5px;   
+}
+.body1 .visit{
+    display: inline;
+    display: flex;
+}
+.body1 .visit .instagram{
+    text-align: left;
+    display: inline-block;
+    padding-left: 20%;   
+}
+.body1 .visit .instagram p{
+    border: 1px solid #FFFFFF;   
+}
+.body1 .visit .try-chatgpt p{
+    text-align: left;
+    padding-left: 20%;      
+}
+.body2{
+    display: flex;
+    width: 100%;
+
+}
+.body2 img{
+    max-width: 25%;
+    justify-content: space-between;
+    height: auto;
+    flex-wrap: wrap;
+}
+hr{
+        border: none; 
+        border-top: 2px solid #FFFFFF; 
+}
+.body3{
+    display: flex;
+    color: #FFFFFF;
+    width: 100%;
+}
+.body3 .block-a{
+    width: 50%;
+}
+.body3 .block-b{
+    width: 50%;
+}
+.paragraph{
+    color: #FFFFFF;
+    width: 100%;
+    text-wrap: wrap;
+}
+.large-image{
+    width: max-content;
+}
+.paragraph2{
+    color: #FFFFFF;
+    width: 100%;
+    text-wrap: wrap;
+    text-align: left;    
+}
+.duo-image{
+    width: auto;
+
+    justify-content: space-between;
+    height: 650px;
+    display: flex;
+}
